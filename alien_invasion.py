@@ -24,7 +24,7 @@ class AlienInvasion:
                 if event.type == pygame.QUIT:
                     sys.exit()
 
-            #actually set the background color each loop
+            #set the background color each loop
             self.screen.fill(self.settings.backgroundColor)
 
             #create a visual of the ship
@@ -33,7 +33,7 @@ class AlienInvasion:
             #makes the most recent screen visible
             pygame.display.flip()
 
-            #set the clock rate, unit: frames per second
+            #set the refresh rate, unit: frames per second
             self.clock.tick(60)
 
 
